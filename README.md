@@ -11,8 +11,9 @@ Before using this repository, ensure you have the following:
 
 - [Terraform](https://www.terraform.io/downloads.html) installed on your system.
 - The AWS CLI installed and configured:
+  ```bash
   aws configure
-  
+  ```
 - An S3 bucket created (via CLI or AWS Management Console) to store the Terraform state file.
 - A DynamoDB table created (via CLI or AWS Management Console) to manage the `.lock` file for state management.
 
@@ -22,18 +23,23 @@ Before using this repository, ensure you have the following:
    - Add the names of your manually created S3 bucket and DynamoDB table to the `backend.tf` file.
 
 2. **Clone the Repository**:
+   ```bash
    git clone <repository-url>
    cd <repository-name>
-   
+   ```
+
 3. **Initialize Terraform**:
+   ```bash
    terraform init
-   
+   ```
 
 4. **Apply Terraform Configuration**:
    - Review and update the `variables.tf` file as needed.
    - Run the following command to deploy resources:
+     ```bash
      terraform apply
-     
+     ```
+
 ## Resources Created by the Terraform Scripts
 
 - **CloudTrail**:
