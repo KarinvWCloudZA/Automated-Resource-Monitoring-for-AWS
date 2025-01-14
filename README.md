@@ -24,8 +24,8 @@ Before using this repository, ensure you have the following:
 
 2. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/KarinvWCloudZA/Automated-Resource-Monitoring-for-AWS
+   cd Automated-Resource-Monitoring-for-AWS
    ```
 
 3. **Initialize Terraform**:
