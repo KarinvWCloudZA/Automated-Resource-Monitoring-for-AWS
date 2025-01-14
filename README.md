@@ -19,14 +19,14 @@ Before using this repository, ensure you have the following:
 
 ## Setup
 
-1. **Backend Configuration**:
-   - Add the names of your manually created S3 bucket and DynamoDB table to the `backend.tf` file.
-
-2. **Clone the Repository**:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/KarinvWCloudZA/Automated-Resource-Monitoring-for-AWS
    cd Automated-Resource-Monitoring-for-AWS
    ```
+
+2. **Backend Configuration**:
+   - Add the names of your manually created S3 bucket and DynamoDB table to the `backend.tf` file.
 
 3. **Initialize Terraform**:
    ```bash
